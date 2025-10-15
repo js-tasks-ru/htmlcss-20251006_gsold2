@@ -7,7 +7,7 @@
     filter: brightness(1.25);
 }
 
-.button_text_white {
+.button_text-white {
     color: var(--white);
     border: 0;
 }
