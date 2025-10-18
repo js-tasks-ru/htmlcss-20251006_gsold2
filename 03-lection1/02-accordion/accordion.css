@@ -5,7 +5,6 @@
 
 .accordion__item {
     padding-left: 32px;
-    padding-right: 536px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
@@ -15,6 +14,7 @@
 
 .accordion__item:open {
     padding-bottom: 32px;
+    padding-right: 48px;
 }
 
 .accordion__item:last-child {
