@@ -39,9 +39,5 @@
 
 .button:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
-}
-
-.button:active {
-    outline: 3px solid #24e424;
+    pointer-events: none;
 }
