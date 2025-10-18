@@ -26,7 +26,7 @@ figma: [https://www.figma.com/file/LavZmQfQccqyrTMzoSJYNu/csscourse1?node-id=171
 Для плавности переходов между состояниями кнопки можно использовать `transition`.
 Мы на него детальнее посмотрим на лекции про анимацию, но уже сейчас можно, например, сгладить изменение цвета фона и прозрачности:
 ```css
-.button_primary {
+.button-primary {
     /* ... */
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
