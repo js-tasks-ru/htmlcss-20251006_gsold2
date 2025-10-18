@@ -1,43 +1,47 @@
 .button {
     height: 48px;
     font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--white);
     padding-left: 67px;
     padding-right: 67px;
     border-radius: 8px;
-    filter: brightness(1.25);
-}
-
-.button_text-white {
-    color: var(--white);
     border: 0;
 }
 
-.button-primary {
-    background: var(--blue);
+.button_primary {
+    background: #4263EB;
 }
 
-.button-secondary {
+.button_secondary {
     background: var(--purple);
 }
 
-.button-alternate {
+.button_alternate {
     background: var(--white);
-    border: 1px solid #ACB5BD;
+    color: var(--black);
+    border: 1px solid var(--grey-3);
 }
 
-.button:hover {
-    filter: brightness(1);
+.button_primary:hover {
+    background: #2342C0;
 }
 
-.button-alternate:hover {
+.button_secondary:hover {
+    background: #5028C6;
+}
+
+.button_alternate:hover {
     border: 1px solid var(--black);
 }
 
 .button:disabled {
-    filter: blur(0.75px) brightness(1.75);
+    opacity: 0.5;
     cursor: not-allowed;
 }
 
 .button:active {
-    cursor: pointer;
+    outline: 3px solid #24e424;
 }
