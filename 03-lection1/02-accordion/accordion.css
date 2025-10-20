@@ -2,7 +2,6 @@
 
 .accordion {
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
 }
 
 .accordion__item {
@@ -27,6 +26,11 @@
 .accordion__content {
     color: var(--grey-4);
     padding-top: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.accordion__summary {
+    font-family: 'Inter', sans-serif;
 }
 
 .accordion__summary::-webkit-details-marker {
