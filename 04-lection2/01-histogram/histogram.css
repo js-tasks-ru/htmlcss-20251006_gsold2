@@ -1,8 +1,7 @@
 .histogram {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 185px;
+    row-gap: 85px;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 16px;
@@ -12,14 +11,18 @@
     font-family: 'Inter', sans-serif;
 }
 
-.histogram__row {
+.histogram__content {
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.histogram__row_align {
+.histogram__chart {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     column-gap: 1px;
     align-items: flex-end;
 }
@@ -30,9 +33,9 @@
 }
 
 .histogram__href {
+    display: block;
     text-decoration: none;
-    position: relative;
-    top: 20px;
+    margin-top: 3px;
 }
 
 .histogram__href:link {
@@ -41,7 +44,7 @@
 
 .histogram__graph {
     background: #4263EB;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .histogram__graph_max {
