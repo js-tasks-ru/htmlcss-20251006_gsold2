@@ -3,3 +3,9 @@
     padding-top: 96px;
     padding-bottom: 77px;
 }
+
+.header__title {
+    height: 64px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
