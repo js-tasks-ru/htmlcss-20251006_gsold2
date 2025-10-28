@@ -1,3 +1,5 @@
-.header {
-    background-color: #F8F9FA;
+.header__container {
+    font-family: 'Inter', sans-serif;
+    padding-top: 96px;
+    padding-bottom: 77px;
 }

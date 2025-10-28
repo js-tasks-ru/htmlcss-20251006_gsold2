@@ -1,3 +1,8 @@
-.footer {
-    background-color: #F8F9FA;
+.footer__container {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-top: 71px;
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-bottom: 136px;
 }
