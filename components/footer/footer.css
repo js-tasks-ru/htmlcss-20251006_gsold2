@@ -6,3 +6,13 @@
     padding-right: 235px;
     padding-bottom: 136px;
 }
+
+.footer__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.footer__text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
