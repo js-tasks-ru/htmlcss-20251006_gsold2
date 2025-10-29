@@ -1,11 +1,11 @@
 .main {
     background-color: #F9FAFC;
+    padding-top: 67px;
+    padding-bottom: 204px;
 }
 
 .main__container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 67px;
-    padding-bottom: 204px;
 }
