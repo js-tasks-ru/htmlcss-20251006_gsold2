@@ -1,16 +1,18 @@
 .footer {
     font-family: 'Inter', sans-serif;
     text-align: center;
+    padding-top: 71px;
+    padding-bottom: 136px;
 }
 
 .footer__title {
-    margin-top: 71px;
+    margin-top: 0;
     margin-bottom: 32px;
 }
 
 .footer__text {
     margin-top: 0;
-    margin-bottom: 136px;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
     width: 640px;
