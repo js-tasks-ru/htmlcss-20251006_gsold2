@@ -12,7 +12,7 @@
 }
 
 .button_primary {
-    background: #4263EB;
+    background: var(--cornflower);
 }
 
 .button_secondary {

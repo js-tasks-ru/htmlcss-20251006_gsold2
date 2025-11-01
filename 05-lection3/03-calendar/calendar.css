@@ -1,0 +1,59 @@
+.calendar {
+    width: 100%;
+    max-width: 304px;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: var(--white);
+    padding: 28px 26px 32px;
+}
+
+.calendar__title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #334D6E;
+    margin-bottom: 24px;
+}
+
+.calendar__wrapper {
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.calendar__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.calendar__item {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.calendar__item_day {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #90A0B7;
+}
+
+.calendar__item_date {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+.calendar__item_extreme_of_range {
+    background: var(--cornflower);
+}
+
+.calendar__item_range {
+    background: #A0B1F5;
+}
