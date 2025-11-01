@@ -1,16 +1,17 @@
 .calendar {
     width: 100%;
-    max-width: 300px;
+    max-width: 304px;
     border: 1px solid #ACB5BD;
     box-sizing: border-box;
     border-radius: 8px;
-    background-color: #FFFFFF;
-    padding: 26px;
+    background-color: var(--white);
+    padding: 26px 28px 26px 32px;
 }
 
 .calendar__title {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
+    line-height: 24px;
     text-align: center;
     color: #334D6E;
     margin-bottom: 24px;
@@ -29,7 +30,7 @@
     bottom: 0;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 
 .calendar__item {
