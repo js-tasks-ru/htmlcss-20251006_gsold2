@@ -51,7 +51,7 @@
 }
 
 .calendar__item_extreme_of_range {
-    background: #4263EB;
+    background: var(--cornflower);
 }
 
 .calendar__item_range {
