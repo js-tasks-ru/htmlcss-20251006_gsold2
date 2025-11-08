@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./srcset.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <!--    https://github.com/necolas/normalize.css      -->
+    <link href="https://necolas.github.io/normalize.css/latest/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./srcset.css">
+    <title>Srcset</title>
+</head>
+
+<body>
+<img class="img"
+     src="./public/forest_400.jpg"
+     srcset="./public/forest_400.jpg 1x, ./public/forest_768.jpg 2x"
+     alt="image">
+</body>
+
 </html>
