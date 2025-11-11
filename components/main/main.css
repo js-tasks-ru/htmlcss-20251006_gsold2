@@ -1,11 +1,26 @@
 .main {
     background-color: #F9FAFC;
+}
+
+.main_card-padding {
     padding-top: 67px;
     padding-bottom: 204px;
 }
 
-.main__container {
+.main_component-padding {
+    padding-top: 36px;
+}
+
+.main__card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.main__menu-and-component-container {
+    width: 100%;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 229px 1fr;
+    gap: 56px;
 }
