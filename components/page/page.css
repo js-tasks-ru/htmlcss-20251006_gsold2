@@ -1,3 +1,9 @@
 .page {
     min-height: 100vh;
 }
+
+.page_menu-and-component {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #F9FAFC;
+}

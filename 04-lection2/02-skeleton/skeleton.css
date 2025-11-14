@@ -1,5 +1,5 @@
 .skeleton {
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     padding: 24px 40px 32px 24px;
     border-radius: 8px;
 }
@@ -15,7 +15,7 @@
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    background: #DDE2E5;
+    background: var(--grey-2);
 }
 
 .skeleton__title {
@@ -29,7 +29,7 @@
     max-width: 100%;
     width: 100%;
     margin-bottom: 8px;
-    background: #DDE2E5;
+    background: var(--grey-2);
 }
 
 .skeleton__line:last-child {
